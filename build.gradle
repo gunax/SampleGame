@@ -19,6 +19,7 @@ jar {
         attributes(
                 "Main-Class": "com.gunax.samplegame.SampleGame")
     }
+    destinationDirectory = file("$buildDir/app")
 }
 
 application {
